@@ -1,0 +1,54 @@
+* {
+  margin:0; padding:0;
+}
+
+/* header */
+
+header {
+  height: 150px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  
+}
+header .headline{
+    line-height: 150px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav-list {
+    line-height: 150px;
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    
+}
+.nav-list-item {
+    list-style: none;
+    font-size: 25px;
+    color: rgb(204,204,204);
+    display: inline-block;
+    margin: 0 70px;
+}
+
+
+/* main */
+
+/* footer */
+
+footer {
+  height: 150px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  
+}
+footer .headline{
+    line-height: 150px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
