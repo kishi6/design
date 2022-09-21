@@ -53,6 +53,12 @@ header {
   color: white;
   
 }
+
+header img{
+  height: 50px;
+  width: 60px;
+
+}
 header h1{
     line-height: 50px;
     float: left;
