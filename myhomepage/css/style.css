@@ -3,6 +3,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../img/background_image.jpg');
+  /* background-color: gainsboro; */
 }
 
 h1,
@@ -24,11 +26,7 @@ img {
 }
 
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 
 a {
   text-decoration: none;
@@ -46,28 +44,30 @@ a:hover {
 
 
 header {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
+  text-align: center;
   
 }
 
 header img{
   height: 50px;
   width: 60px;
-  margin-right: 15px;
-
+  
 }
+
 header h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
 }
 header ul{
-    line-height: 50px;
+    line-height: 20px;
     float: left;
     margin-left: 100px;
     list-style: none;
@@ -75,7 +75,7 @@ header ul{
 }
 header ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
@@ -108,14 +108,14 @@ header a:hover {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-ul {
+.genre ul {
   /* max-width: 1000px; */
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 
 }
 
-ul li {
+.genre ul li {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
@@ -134,53 +134,59 @@ ul li {
   margin-bottom:80px;
 
 }
-ul li a{
+.genre ul li a{
   align-items: center;
   /* justify-content: space-between; */
 }
 
-ul li a h2 {   
+.genre ul li a h2 {   
   margin-top:40px;
   margin-bottom:40px;
   margin-left:40px;
   margin-right: 40px;
 } 
-ul li a p {   
+.genre ul li a p {   
   margin-top:40px;
   margin-bottom:40px;
   margin-left:40px;
   margin-right: 40px;
 } 
 
-ul li:nth-child(odd) {
+.genre ul li:nth-child(odd) {
   flex-direction: row-reverse;
 }
-ul li:nth-child(odd) {
+.genre ul li:nth-child(odd) {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-ul li:nth-child(even) {
+.genre ul li:nth-child(even) {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-ul li a p{
+.genre ul li a p{
   max-width: 1000px;
 
 }
 
-/* footer */
+.genre ul img{
+  height: 40%;
+  width: 100%;
+}
+
 /* footer */
 
 
 footer {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
   margin-top: 30px;
+  text-align: center;
+
 }
 
 footer img{
@@ -189,13 +195,14 @@ footer img{
   
 }
 footer h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer ul{
-    line-height: 50px;
+    line-height: 20px;
     float: left;
     margin-left: 100px;
     list-style: none;
@@ -203,7 +210,7 @@ footer ul{
 }
 footer ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
@@ -239,6 +246,6 @@ footer a:hover {
     max-width: 800px;
   } */
 
-  header form {
+  /* header form {
     display: block;
-  }
+  } */

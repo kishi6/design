@@ -2,6 +2,8 @@
 
 body {
   margin: 0;
+  background-image: url('../img/background_image.jpg');
+
 }
 
 img {
@@ -71,11 +73,12 @@ a:hover {
 
 
 header {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
+  text-align: center;
   
 }
 
@@ -86,10 +89,12 @@ header img{
 }
 
 header h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 header ul{
     line-height: 20px;
@@ -100,7 +105,7 @@ header ul{
 }
 header ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
@@ -136,7 +141,8 @@ main h1 {
 
 main h2 {
   font-size: 20px;
-  margin-top: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main p {
@@ -148,16 +154,59 @@ main section + section {
   margin-top: 60px;
 }
 
+.play{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  play-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.play p {
+  margin: 0; 
+  padding: 0;
+}
+
+.box{
+  margin:2em 0;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px #5d627b;
+  border-radius: 3px 0 3px 0;
+}
+.box:before,.box:after
+{
+  content: '';
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border: solid 2px #5d627b;
+  border-radius: 50%;
+}
+.box:after {
+  top:-12px;
+  left:-12px;
+}
+.box:before {
+  bottom:-12px;
+  right:-12px;
+}
+.box p {
+  margin: 0; 
+  padding: 0;
+}
+
 /* footer */
 
 
 footer {
-  height: 50px;
+  height: 45px;
   width: 100%;
   padding: 15px 0;
   background-color: black;
   color: white;
   margin-top: 30px;
+  text-align: center;
 
 }
 
@@ -167,10 +216,12 @@ footer img{
   
 }
 footer h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 footer ul{
     line-height: 20px;
@@ -181,7 +232,7 @@ footer ul{
 }
 footer ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;

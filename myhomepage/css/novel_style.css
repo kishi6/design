@@ -2,6 +2,8 @@
 
 body {
   margin: 0;
+  background-image: url('../img/background_image.jpg');
+
 }
 
 img {
@@ -71,11 +73,12 @@ a:hover {
 
 
 header {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
+  text-align: center;
   
 }
 header img{
@@ -84,10 +87,12 @@ header img{
   
 }
 header h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 header ul{
     line-height: 20px;
@@ -98,7 +103,7 @@ header ul{
 }
 header ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
@@ -157,12 +162,13 @@ main section + section {
 
 
 footer {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
   margin-top: 30px;
+  text-align: center;
 
 }
 
@@ -172,13 +178,15 @@ footer img{
   
 }
 footer h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 footer ul{
-    line-height: 20px;
+    line-height: 17px;
     float: left;
     margin-left: 100px;
     list-style: none;
@@ -186,7 +194,7 @@ footer ul{
 }
 footer ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;

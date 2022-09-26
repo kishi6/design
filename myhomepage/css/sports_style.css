@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  background-image: url('../img/background_image.jpg');
 }
 
 img {
@@ -71,11 +72,12 @@ a:hover {
 
 
 header {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
+  text-align: center;
   
 }
 
@@ -86,10 +88,12 @@ header img{
 }
 
 header h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 header ul{
     line-height: 20px;
@@ -100,7 +104,7 @@ header ul{
 }
 header ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
@@ -148,16 +152,72 @@ main section + section {
   margin-top: 60px;
 }
 
+main img{
+  padding: 15px;
+}
+
+.rank{
+  font-size: large;
+  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ol {
+  vertical-align: middle;
+  max-width: 400px;
+  margin:0 auto;
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding:0px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+ol li {
+  padding: 0.5em 0;
+  position: relative;
+  padding-left: 1.4em;
+  line-height: 1.5em;
+}
+ol li:before{
+  counter-increment: number;
+  content: counter(number) ".";
+  position: absolute;
+  left: 0;
+  font-size: medium;
+  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
+  font-size: 1.3em;/*フォントサイズ*/
+}
+
+.flex {
+  margin: 0 auto; 
+  display: flex;
+  max-width: 60%;
+}
+
+.flex div{
+  margin:0 auto;
+  max-width: 60%;
+  align-items: center;
+  text-align: center;
+}
+
+span {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+
 /* footer */
 
 
 footer {
-  height: 50px;
+  height: 45px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
   margin-top: 30px;
+  text-align: center;
+
 }
 
 footer img{
@@ -166,10 +226,12 @@ footer img{
   
 }
 footer h1{
-    line-height: 50px;
+    line-height: 45px;
     float: left;
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 footer ul{
     line-height: 20px;
@@ -180,7 +242,7 @@ footer ul{
 }
 footer ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;

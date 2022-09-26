@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>comicランキング</title>
   <link rel="icon" href="img/white_pencil.png">
-  <link rel="stylesheet" href="css/novel_style.css">
+  <link rel="stylesheet" href="css/comic_style.css">
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
 </head>
 <body>
   <header>
@@ -15,7 +18,7 @@
         <img 
         src="img/white_pencil.png"
         alt="aicon">
-        site_Name
+        Camereon
       </a>
     </h1>
     <ul>
@@ -48,11 +51,103 @@
       <section>
         <h2>【第1位】 進撃の巨人</h2>
         <p>講談社 &emsp;著者：諫山創</p>
-        <img
+        <!-- <img id="mypic" src="img/singeki_cover_image/singeki_image1.jpg" width="400" height="600"> -->
+          <script>
+            var pics_src = new Array(
+              'img/singeki_cover_image/singeki_image2.jpg',
+              'img/singeki_cover_image/singeki_image3.jpg',
+              'img/singeki_cover_image/singeki_image4.jpg',
+              'img/singeki_cover_image/singeki_image5.jpg',
+              'img/singeki_cover_image/singeki_image6.jpg',
+              'img/singeki_cover_image/singeki_image7.jpg',
+              'img/singeki_cover_image/singeki_image8.jpg',
+              'img/singeki_cover_image/singeki_image9.jpg',
+              'img/singeki_cover_image/singeki_image10.jpg',
+              'img/singeki_cover_image/singeki_image11.jpg',
+              'img/singeki_cover_image/singeki_image12.jpg',
+              'img/singeki_cover_image/singeki_image13.jpg',
+              'img/singeki_cover_image/singeki_image14.jpg',
+              'img/singeki_cover_image/singeki_image15.jpg',
+              'img/singeki_cover_image/singeki_image16.jpg',
+              'img/singeki_cover_image/singeki_image17.jpg',
+              'img/singeki_cover_image/singeki_image18.jpg',
+              'img/singeki_cover_image/singeki_image19.jpg',
+              'img/singeki_cover_image/singeki_image20.jpg',
+              'img/singeki_cover_image/singeki_image21.jpg',
+              'img/singeki_cover_image/singeki_image22.jpg',
+              'img/singeki_cover_image/singeki_image23.jpg',
+              'img/singeki_cover_image/singeki_image24.jpg',
+              'img/singeki_cover_image/singeki_image25.jpg',
+              'img/singeki_cover_image/singeki_image26.jpg',
+              'img/singeki_cover_image/singeki_image27.jpg',
+              'img/singeki_cover_image/singeki_image28.jpg',
+              'img/singeki_cover_image/singeki_image29.jpg',
+              'img/singeki_cover_image/singeki_image30.jpg',
+              'img/singeki_cover_image/singeki_image31.jpg',
+              'img/singeki_cover_image/singeki_image32.jpg',
+              'img/singeki_cover_image/singeki_image33.jpg',
+              'img/singeki_cover_image/singeki_image34.jpg',
+              'img/singeki_cover_image/singeki_image1.jpg'
+          
+              );
+              var num = 0;
+              
+              slideshow_timer();
+
+              function slideshow_timer(){
+                  if (num == 34){
+                      num = 0;
+                  } 
+                  else {
+                      num ++;
+                  }
+                  document.getElementById("mypic").src=pics_src[num];
+                  setTimeout("slideshow_timer()",1500); 
+              }
+          </script>
+          <ul class="slider">
+            <li><img src="img/singeki_cover_image/singeki_image1.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image2.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image3.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image4.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image5.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image6.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image7.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image8.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image9.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image10.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image11.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image12.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image13.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image14.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image15.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image16.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image17.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image18.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image19.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image20.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image21.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image22.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image23.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image24.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image25.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image26.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image27.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image28.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image29.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image30.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image31.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image32.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image33.jpg" alt=""></li>
+            <li><img src="img/singeki_cover_image/singeki_image34.jpg" alt=""></li>
+          <!--/slider-->
+          </ul>
+      
+        <!-- <img
           src="img/singeki_1volume_cover.jpg"
           alt="勇者ゲーム"
           width="400"
-          height="600">
+          height="600"> -->
         <!-- <p>進撃の巨人の</p> -->
         <p>”駆逐してやる!! この世から…一匹残らず!!”</p>
         <!-- <div class="story">人類は50mの壁に囲まれた閉鎖的な地で、壁の外にいる巨人たちからの侵略を防ぎながら自由の代償と引き換えに平和に暮らしていた。しかし、突如出現した「超大型巨人」によって壁が破壊され、100年間守られていた壁内での人類の平和が脅かされることに。主人公のエレン・イェーガーは、壁の破壊によって侵攻してきた巨人の群れたちにより、家や家族を失ったことで巨人への復讐を決意する。「巨人を1匹残らず駆逐してやる――。」その想いを胸に、力を手に入れるために幼馴染のミカサ・アルミンと共に調査兵団に入団し、正体不明の巨人に立ち向かっていく…。
@@ -63,12 +158,83 @@
       <section>
         <h2>【第2位】 ワールドトリガー</h2>
         <p>集英社 &emsp;著者：葦原大介</p>
+        <!-- <img id="world" src="img/world_cover_image/world_image1.jpeg" width="400" height="600"> -->
+        <script>
+          var world_pics_src = new Array(
+            'img/world_cover_image/world_image2.jpeg',
+            'img/world_cover_image/world_image3.jpeg',
+            'img/world_cover_image/world_image4.jpeg',
+            'img/world_cover_image/world_image5.jpeg',
+            'img/world_cover_image/world_image6.jpeg',
+            'img/world_cover_image/world_image7.jpeg',
+            'img/world_cover_image/world_image8.jpeg',
+            'img/world_cover_image/world_image9.jpeg',
+            'img/world_cover_image/world_image10.jpeg',
+            'img/world_cover_image/world_image11.jpeg',
+            'img/world_cover_image/world_image12.jpeg',
+            'img/world_cover_image/world_image13.jpeg',
+            'img/world_cover_image/world_image14.jpeg',
+            'img/world_cover_image/world_image15.jpeg',
+            'img/world_cover_image/world_image16.jpeg',
+            'img/world_cover_image/world_image17.jpeg',
+            'img/world_cover_image/world_image18.jpeg',
+            'img/world_cover_image/world_image19.jpeg',
+            'img/world_cover_image/world_image20.jpeg',
+            'img/world_cover_image/world_image21.jpeg',
+            'img/world_cover_image/world_image22.jpeg',
+            'img/world_cover_image/world_image23.jpeg',
+            'img/world_cover_image/world_image24.jpeg',
+            'img/world_cover_image/world_image1.jpeg'
+                    
+            );
+            var world_num = 0;
+            
+            world_slideshow_timer();
 
-        <img
-        src="img/wa-rudotoriga-_1volume_cover.jpg"
+            function world_slideshow_timer(){
+                if (world_num == 23){
+                    world_num = 0;
+                } 
+                else {
+                    world_num ++;
+                }
+                document.getElementById("world").src=world_pics_src[num];
+                setTimeout("world_slideshow_timer()",500); 
+            }
+        </script>
+         <ul class="slider">
+          <li><img src="img/world_cover_image/world_image1.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image2.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image3.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image4.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image5.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image6.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image7.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image8.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image9.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image10.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image11.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image12.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image13.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image14.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image15.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image16.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image17.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image18.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image19.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image20.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image21.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image22.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image23.jpeg" alt=""></li>
+          <li><img src="img/world_cover_image/world_image24.jpeg" alt=""></li>
+        <!--/slider-->
+        </ul>
+      
+        <!-- <img
+        src="img/world_1volume_cover.jpg"
         alt="宝探しゲーム"
         width="400"
-        height="600">
+        height="600"> -->
         <!-- <p>すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。</p> -->
         <p>”勝ち目が薄いからって・・・逃げるわけにはいかない”</p>
         <div class="story">異次元からの侵略者「近界民」の脅威にさらされている三門市。
@@ -79,16 +245,95 @@
       <section>
         <h2>【第3位】 NARUTO -ナルト-</h2>
         <p>少年ジャンプ &emsp;著者：岸本斉史</p>
-        <img
+        <!-- <img
           src="img/naruto_1volume_cover.jpg"
           alt="神経衰弱"
           width="400"
-          height="600">
+          height="600"> -->
+          <ul class="slider">
+            <li><img src="img/naruto_cover_image/naruto_image1.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image2.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image3.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image4.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image5.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image6.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image7.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image8.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image9.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image10.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image11.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image12.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image13.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image14.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image15.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image16.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image17.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image18.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image19.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image20.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image21.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image22.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image23.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image24.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image25.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image26.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image27.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image28.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image29.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image30.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image31.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image32.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image33.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image34.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image35.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image36.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image37.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image38.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image39.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image40.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image41.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image42.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image43.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image44.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image45.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image46.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image47.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image48.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image49.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image50.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image51.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image52.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image53.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image54.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image55.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image56.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image57.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image58.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image59.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image60.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image61.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image62.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image63.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image64.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image65.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image66.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image67.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image68.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image69.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image70.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image71.jpg" alt=""></li>
+            <li><img src="img/naruto_cover_image/naruto_image72.jpg" alt=""></li>
+
+          <!--/slider-->
+          </ul>
         <!-- <p>海外でも人気の高い漫画です</p> -->
         <p>”俺が諦めるのを、諦めろ！”</p>
         <div class="story">ここは木ノ葉隠れの里。忍術学校の問題児、ナルトは今日もイタズラ三昧!!
-          そんなナルトのでっかい夢は歴代の勇者、火影の名を受けついで、先代を越える忍者になることだ。だがナルトには出生の秘密が...!?  引用少年ジャンプ</div>
+          そんなナルトのでっかい夢は歴代の勇者、火影の名を受けついで、先代を越える忍者になることだ。だがナルトには出生の秘密が...!?  </div>
       </section>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="js/comic_main.js"></script>
     </div>
   </main>
 
@@ -98,7 +343,7 @@
         <img 
         src="img/white_pencil.png"
         alt="aicon">
-        site_Name
+        Camereon
       </a>
     </h1>
     <ul>
