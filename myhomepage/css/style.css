@@ -40,61 +40,6 @@ a:hover {
   opacity: .5;
 }
 
-/* header */
-
-
-header {
-  height: 45px;
-  width: 100%;
-  padding: 13px 0;
-  background-color: black;
-  color: white;
-  text-align: center;
-  
-}
-
-header img{
-  height: 50px;
-  width: 60px;
-  
-}
-
-header h1{
-    line-height: 45px;
-    float: left;
-    font-size: 18px;
-    margin-left: 100px;
-    font-family: 'Times New Roman', Times, serif;
-}
-header ul{
-    line-height: 20px;
-    float: left;
-    margin-left: 100px;
-    list-style: none;
-    
-}
-header ul li{
-    list-style: none;
-    font-size: 18px;
-    color: rgb(204,204,204);
-    display: inline-block;
-    margin: 0 70px;
-}
-
-header a {
-  text-decoration: none;
-  /* color: inherit; */
-  color: inherit;
-  /* transition: opacity .3s; */
-  transition: color .3s;
-
-}
-
-header a:hover {
-  color: white;
-  border-bottom: 1px solid white;
-}
-
 /* hero */
 
 .hero img {
@@ -175,60 +120,6 @@ header a:hover {
   width: 100%;
 }
 
-/* footer */
-
-
-footer {
-  height: 45px;
-  width: 100%;
-  padding: 13px 0;
-  background-color: black;
-  color: white;
-  margin-top: 30px;
-  text-align: center;
-
-}
-
-footer img{
-  height: 50px;
-  width: 60px;
-  
-}
-footer h1{
-    line-height: 45px;
-    float: left;
-    font-size: 18px;
-    margin-left: 100px;
-    font-family: 'Times New Roman', Times, serif;
-}
-footer ul{
-    line-height: 20px;
-    float: left;
-    margin-left: 100px;
-    list-style: none;
-    
-}
-footer ul li{
-    list-style: none;
-    font-size: 18px;
-    color: rgb(204,204,204);
-    display: inline-block;
-    margin: 0 70px;
-}
-
-footer a {
-  text-decoration: none;
-  /* color: inherit; */
-  color: inherit;
-  /* transition: opacity .3s; */
-  transition: color .3s;
-
-}
-
-footer a:hover {
-  color: white;
-  border-bottom: 1px solid white;
-}
 /* medium screen */
 
 /* @media (min-width: 600px) {

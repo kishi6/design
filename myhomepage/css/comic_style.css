@@ -274,10 +274,12 @@ main section + section {
 /* footer */
 
 
+
+
 footer {
-  height: 45px;
+  height: 70px;
   width: 100%;
-  padding: 15px 0;
+  padding: 13px 0;
   background-color: black;
   color: white;
   margin-top: 30px;
@@ -296,13 +298,14 @@ footer h1{
     font-size: 17px;
     margin-left: 100px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 footer ul{
-    line-height: 20px;
+    line-height: 17px;
     float: left;
     margin-left: 100px;
     list-style: none;
-    
+    margin-top: 12px;
 }
 footer ul li{
     list-style: none;
@@ -310,8 +313,6 @@ footer ul li{
     color: rgb(204,204,204);
     display: inline-block;
     margin: 0 70px;
-    margin-bottom: 12px;
-
 }
 
 footer a {

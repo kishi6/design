@@ -1,0 +1,152 @@
+/* common */
+
+body {
+  margin: 0;
+  background-image: url('../img/background_image.jpg');
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+/* common
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  margin: 0 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; */
+  color: inherit;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+
+/* main */
+
+main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 60px 0;
+
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/* 上下の余白 */
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  
+}
+
+main h2 {
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+main p {
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+main section + section {
+  margin-top: 60px;
+}
+
+main img{
+  padding: 15px;
+}
+
+.rank{
+  font-size: large;
+  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ol {
+  vertical-align: middle;
+  max-width: 400px;
+  margin:0 auto;
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding:0px;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+ol li {
+  padding: 0.5em 0;
+  position: relative;
+  padding-left: 1.4em;
+  line-height: 1.5em;
+}
+ol li:before{
+  counter-increment: number;
+  content: counter(number) ".";
+  position: absolute;
+  left: 0;
+  font-size: medium;
+  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
+  font-size: 1.3em;/*フォントサイズ*/
+}
+
+.flex {
+  margin: 0 auto; 
+  display: flex;
+  max-width: 60%;
+}
+
+.flex div{
+  margin:0 auto;
+  max-width: 60%;
+  align-items: center;
+  text-align: center;
+}
+
+span {
+  padding: 5px;
+  margin: 0 5px;
+}
+
