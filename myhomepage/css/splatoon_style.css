@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  background-image: url('../img/background_image.jpg');
+  /* background-image: url('../img/background_image.jpg'); */
+
 }
 
 img {
@@ -68,85 +69,44 @@ a:hover {
   opacity: .5;
 }
 
+h1 {
+  color:rgb(100,0,240);
+  font-size: 80px;
+  font-family: georgia;
+}
 
-/* main */
+h2 {
+  color: rgb(130, 227, 88);
+  font-size: 40px;
 
-main h1 {
-  font-size: 24px;
+}
+
+p{
+  color:rgb(1, 31, 1);
+  font-size: 30px;
+}
+
+div {
   text-align: center;
-  margin: 60px 0;
+}
 
-  color: #364e96;/*文字色*/
-  padding: 0.5em 0;/* 上下の余白 */
-  border-top: solid 3px #364e96;/*上線*/
-  border-bottom: solid 3px #364e96;/*下線*/
+img {
+  border: sold 50px rgb(250, 150, 150);
+  border-radius: 50%;
+}
+
+body {
+  background-image: url('../img/data/splatoon_backgroundImage1.png');
+  /* background-image: url('data/backgroundImage.png'); */
+  /* backdrop-filter: blur(500px); */
+  background-size: cover;
+}
+
+main{
+  background-image: url('../img/data/splatoon_backgroundImage2.png');
+  /* background-image: url('data/backgroundImage.png'); */
+  /* backdrop-filter: blur(500px); */
+  background-size: cover;
+  text-align: center;
   
 }
-
-main h2 {
-  font-size: 20px;
-  margin-top: 16px;
-}
-
-main p {
-  line-height: 1.8;
-  margin-top: 16px;
-}
-
-main section + section {
-  margin-top: 60px;
-}
-
-main img{
-  padding: 15px;
-}
-
-.rank{
-  font-size: large;
-  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-ol {
-  vertical-align: middle;
-  max-width: 400px;
-  margin:0 auto;
-  counter-reset:number; /*数字をリセット*/
-  list-style-type: none!important; /*数字を一旦消す*/
-  padding:0px;
-  border-top: solid 2px black;
-  border-bottom: solid 2px black;
-}
-ol li {
-  padding: 0.5em 0;
-  position: relative;
-  padding-left: 1.4em;
-  line-height: 1.5em;
-}
-ol li:before{
-  counter-increment: number;
-  content: counter(number) ".";
-  position: absolute;
-  left: 0;
-  font-size: medium;
-  font-family: 'Bradley Hand','Segoe Script','Segoe Print',sans-serif;/*手書き風のフォント*/
-  font-size: 1.3em;/*フォントサイズ*/
-}
-
-.flex {
-  margin: 0 auto; 
-  display: flex;
-  max-width: 60%;
-}
-
-.flex div{
-  margin:0 auto;
-  max-width: 60%;
-  align-items: center;
-  text-align: center;
-}
-
-span {
-  padding: 5px;
-  margin: 0 5px;
-}
-
